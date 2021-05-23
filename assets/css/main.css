@@ -1,0 +1,606 @@
+@charset "UTF-8";
+/* SOBRESCRIÇÃO DE ESTILOS NATIVOS BOOTSTRAP */
+@font-face {
+  font-family: 'Editundo';
+  src: url("../../assets/fonts/editundo.ttf");
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../../assets/fonts/fontawesome/fa-solid-900.eot");
+  src: url("../../assets/fonts/fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), 
+        url("../../assets/fonts/fontawesome/fa-solid-900.woff2") format("woff2"), 
+        url("../../assets/fonts/fontawesome/fa-solid-900.woff") format("woff"), 
+        url("../../assets/fonts/fontawesome/fa-solid-900.ttf") format("truetype"), 
+        url("../../assets/fonts/fontawesome/fa-solid-900.svg#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* GABS*/
+
+body {
+  background-image:url("https://i.imgur.com/mAoFqlU.png");
+	background-attachment: fixed;
+	background-size: 100%;
+  margin: 0 0 0.5% 0;
+}
+
+.tit_home {
+  
+  
+	
+  text-align: center;
+  font-family: 'Editundo';
+  border:6px ;
+	text-transform: uppercase;
+  color: #F4E7EE;
+	position:fixed;
+	background-color:#f03813;
+  padding:0.3cm;
+  font-size: 84px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  right: 0;
+  padding-bottom: 20px;
+  padding-top: 0.5%;
+	line-height: 59px;
+}
+.text_home {
+	font-size: 22px;
+	padding-top:130px;
+  padding-bottom:40px;  
+  margin-left: 300px;
+  margin-right: 300px;
+	text-indent:20px;
+  font-family: 'Didact Gothic', sans-serif;
+  color:#000000;
+  font-weight: 400;
+  text-align:center;
+}
+
+body {
+	background-image:url("https://i.imgur.com/mAoFqlU.png");
+	background-attachment: fixed;
+	background-size: 100%;
+
+}
+
+
+.bot_play {
+  color: #b31237;
+	margin-top: 60px;
+	margin-bottom: 200px;
+	background-size: 100px 100px;
+	text-align: center;
+  padding: 10px;
+  font-size: 50px;  
+  display: block;
+	text-decoration: none;
+  font-family: 'Editundo';
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+}
+.bot_back {
+	margin-top: 1px;
+	background-size: 100px 100px;
+	text-align: center;
+  padding: 1px;
+  font-size: 50px;  
+  display: block;
+	text-decoration: none;
+  font-family: 'Editundo';
+	color: #f03813;
+}
+.lixos_home {
+	text-align: center;
+  size: 1220px;
+}
+
+.leia_mais {
+	background-size: 100px 100px;
+	text-align: center;
+  padding: 10px;
+  font-size: 50px;  
+  display: block;
+	text-decoration: none;
+  font-family: 'Editundo';
+	color: #b31237;
+}
+
+.lermais {
+	font-size: 22px;
+	padding-top:130px;
+  padding-bottom:40px;  
+  margin-left: 300px;
+  margin-right: 300px;
+	text-indent:20px;
+  font-family: 'Didact Gothic', sans-serif;
+  color:#000000;
+  font-weight: 400;
+  text-align:center;
+}
+
+.subtit_home{
+  text-align: center;
+  font-family: 'Editundo';
+  border:1px ;
+	text-transform: uppercase;
+  color:	#f03813;
+  padding:0.3cm;
+  font-size: 84px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  right: 0;
+  padding-bottom: 1px;
+  padding-top: 1%;
+	line-height: 59px;
+}
+
+/* GABS */
+
+/********************************* SITES DAS LIXEIRAS********************************/
+/********************************* SITES DAS LIXEIRAS********************************/
+.subt_home {
+	font-size: 22px;
+	padding-top:130px;
+  padding-bottom:4px;  
+  margin-left: 300px;
+  margin-right: 300px;
+	text-indent:20px;
+  font-family: 'Didact Gothic', sans-serif;
+  color:#000000;
+  font-weight: 400;
+  text-align:center;
+}
+.subsub_home {
+	font-size: 22px;
+	padding-top:1px;
+  padding-bottom:40px;  
+  margin-left: 300px;
+  margin-right: 300px;
+	text-indent:20px;
+  font-family: 'Didact Gothic', sans-serif;
+  color:#000000;
+  font-weight: 400;
+  text-align:center;
+}
+.subd_home {
+	font-size: 22px;
+	padding-top:1px;
+  padding-bottom:40px;  
+  margin-left: 300px;
+  margin-right: 300px;
+	text-indent:20px;
+  font-family: 'Didact Gothic', sans-serif;
+  color:#000000;
+  font-weight: 400;
+  text-align:center;
+}
+.lixos{
+	text-align: center;
+}
+
+.lixeiros_site {	
+	width: 130px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.anim--shake {
+  animation: shake 0.5s;
+  animation-iteration-count: 2;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.arrow_control::before {
+  font-size: 56px;
+}
+
+.arrow_directions button {
+  background-color: #ffffff;
+  border-style: none;
+}
+
+input.button {
+  cursor: pointer;
+  color: #F4E7EE;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Editundo',  'Gill Sans',  'Gill Sans MT',  'Calibri',  'Trebuchet MS',  'sans-serif';
+  background-color: #f03813;
+  padding: 1rem;
+  border-bottom: 9px solid #F4E7EE;
+  border-right: 9px solid #F4E7EE;
+}
+
+input.button.fill {
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  input.button.w-100-xl {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* original */
+
+
+.classname:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c));
+  background: -moz-linear-gradient(center top, #8cb82b 5%, #9dce2c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+  background-color: #8cb82b;
+}
+
+.classname:active {
+  position: relative;
+  top: 1px;
+  font-family: 'Editundo';
+}
+
+
+
+
+.game-over .modal {
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px dashed #ffffff;
+  box-shadow: 0 0 0 10px #000000;
+}
+
+.game-over .points_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.game-over .points_container > * {
+  margin: 0;
+}
+
+.game-over .points_container p {
+  margin: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .game-over .points_container {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .game-over .points_container {
+    font-size: 1.2rem;
+  }
+}
+
+.game-over input.button {
+  cursor: pointer;
+  color: #000000;
+  font-size: 1.6rem;
+  box-shadow: 2px 3px 18px 0 rgba(46, 61, 73, 0.5);
+  background-color: #ffffff;
+  border: 5px solid #ffffff;
+  border-radius: 6px;
+  padding: 10px 25px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .game-over input.button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .game-over input.button {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .game-over input.button {
+    font-size: 1.4rem;
+  }
+}
+
+.modal {
+  background: #ffffff;
+  width: 45%;
+  min-width: 250px;
+  padding: 25px;
+  border: 2px dashed #000000;
+  box-shadow: 0 0 0 10px #ffffff;
+  font-size: 1.3em;
+}
+
+.modal h2 {
+  font-family: 'Editundo', cursive;
+  font-size: 2.7rem;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+@media (min-width: 768px) {
+  .modal h2 {
+    font-size: 3.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal h2 {
+    font-size: 5rem;
+  }
+}
+
+.modal h3 {
+  margin: 0 3px 0 0;
+}
+
+
+.modal .rules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+  text-transform: lowercase;
+}
+
+.modal .rules ul {
+  text-align: justify;
+  padding-left: 1rem;
+}
+
+.modal .rules ul > li {
+  margin: 1rem 0;
+}
+
+@media (min-width: 992px) {
+  .modal .rules ul > li {
+    margin: 0.5rem 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal .rules {
+    font-size: 0.9rem;
+  }
+}
+
+.modal p:first-child {
+  display: block;
+  margin: 33px 0;
+}
+
+.modal-container {
+  z-index: 2000;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container.show {
+  display: flex;
+}
+
+.modal-container.show .modal {
+  animation: modal .5s;
+}
+
+.modal-container.game-over {
+  background-color: #000000;
+  font-family: 'Editundo', cursive;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: 'Editundo';
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F4E7EE;
+  border: 6px;
+  border-bottom: 6px solid #b31237;
+  background-color: #f03813;
+  background-size: 80% 40px;
+  padding: 0.3cm;
+  padding-bottom: 20px;
+  padding-top: 0.5%;
+}
+
+.panel > * {
+  margin: 0 3rem;
+}
+
+.panel div > h4 {
+  margin: 0;
+}
+
+.heart-lives::before {
+  font-size: 20px;
+  padding: 0 2px;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+  0% {
+    background-position-x: 1rem;
+  }
+}
+
+@keyframes progress-bar-stripes {
+  0% {
+    background-position-x: 1rem;
+  }
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+.progress {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #b31237;
+  border-radius: 0;
+  border: 0;
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #F4E7EE;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #F4E7EE;
+  transition: width 0.6s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .progress-bar {
+    transition: none;
+  }
+}
+
+.progress-bar-striped {
+  background-image: linear-gradient(45deg, #F4E7EE 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem;
+}
+
+.progress-bar-animated {
+  -webkit-animation: 1s linear infinite progress-bar-stripes;
+  animation: 1s linear infinite progress-bar-stripes;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .progress-bar-animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+}
+
+.overlay {
+  z-index: 999;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #b31237;
+  font-family: 'Editundo';
+  color: white;
+}
+
+.overlay_title {
+  font-size: 8rem;
+  margin: 0;
+}
+
+.overlay_countdown {
+  font-size: 6rem;
+}
+
+
+.lixeiros_site {
+  width: 100px;
+  text-decoration: none;
+}
+
+.link_lixeiros {
+  text-decoration: none;
+}
+
+.volume_controls {
+  font-family: 'FontAwesome';
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.plasticoimg {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: 350px;
+  margin-right: 0px;
+}
+
+/*# sourceMappingURL=main.css.map */
